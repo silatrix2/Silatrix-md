@@ -3,6 +3,7 @@ services:
     name: silatrix-bot
     env: node
     plan: free
+    nodeVersion: 24
     buildCommand: npm install
     startCommand: npm start
     envVars:
@@ -14,4 +15,3 @@ services:
         value: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZhbHh5a253eGdkenB0bHJnZHlzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU4ODIwOTUsImV4cCI6MjA3MTQ1ODA5NX0.fApjkV4noimFxiUN3tr85rNssfMR4Oli6HF_y1spnyc"   # badilisha na API key yoyote unayo kutumia
       - key: ANOTHER_SECRET
         value: "your_secret_here"    # badilisha na secrets nyingine kama zipo
-        
