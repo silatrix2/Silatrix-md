@@ -1,0 +1,23 @@
+{
+  "name": "silatrix-bot-deployer",
+  "version": "0.1.0",
+  "description": "WhatsApp SILATRIX bot with deployer, dashboard, and multi-client support using Baileys.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=development nodemon index.js",
+    "add:client": "node scripts/installer.js",
+    "start:client": "node scripts/start-client.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.10",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pino": "^9.4.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}

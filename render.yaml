@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: silatrix-bot-deployer
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: BOT_NAME
+        value: SILATRIX
