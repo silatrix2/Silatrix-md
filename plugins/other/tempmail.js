@@ -1,0 +1,1 @@
+export default ()=>console.log(".tempmail plugin executed")

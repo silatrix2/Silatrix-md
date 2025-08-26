@@ -1,0 +1,1 @@
+export default ()=>console.log(".8ball plugin executed")

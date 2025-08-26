@@ -1,0 +1,1 @@
+export default ()=>console.log(".tts3 plugin executed")

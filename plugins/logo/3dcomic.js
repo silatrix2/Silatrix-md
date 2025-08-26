@@ -1,0 +1,1 @@
+export default ()=>console.log(".3dcomic plugin executed")

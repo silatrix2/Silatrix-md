@@ -1,0 +1,1 @@
+export default ()=>console.log(".baby plugin executed")

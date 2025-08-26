@@ -1,0 +1,1 @@
+export default ()=>console.log(".read-message plugin executed")

@@ -1,0 +1,1 @@
+export default ()=>console.log(".time plugin executed")

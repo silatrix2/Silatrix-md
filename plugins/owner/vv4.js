@@ -1,0 +1,1 @@
+export default ()=>console.log(".vv4 plugin executed")

@@ -1,0 +1,1 @@
+export default ()=>console.log(".stabilityai plugin executed")

@@ -1,0 +1,1 @@
+export default ()=>console.log(".ping plugin executed")

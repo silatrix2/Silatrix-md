@@ -1,0 +1,1 @@
+export default ()=>console.log(".tomp3 plugin executed")

@@ -1,0 +1,1 @@
+export default ()=>console.log(".img plugin executed")

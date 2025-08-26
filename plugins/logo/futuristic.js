@@ -1,0 +1,1 @@
+export default ()=>console.log(".futuristic plugin executed")

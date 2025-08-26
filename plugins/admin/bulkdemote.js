@@ -1,0 +1,1 @@
+// example admin plugin

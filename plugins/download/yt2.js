@@ -1,0 +1,1 @@
+export default ()=>console.log(".yt2 plugin executed")

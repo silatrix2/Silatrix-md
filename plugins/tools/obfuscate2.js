@@ -1,0 +1,1 @@
+export default ()=>console.log(".obfuscate2 plugin executed")

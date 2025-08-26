@@ -1,0 +1,1 @@
+export default ()=>console.log(".alive plugin executed")

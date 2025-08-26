@@ -1,0 +1,1 @@
+export default ()=>console.log(".nom plugin executed")

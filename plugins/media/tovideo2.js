@@ -1,0 +1,1 @@
+export default ()=>console.log(".tovideo2 plugin executed")

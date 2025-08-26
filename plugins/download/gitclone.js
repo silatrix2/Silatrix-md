@@ -1,0 +1,1 @@
+export default ()=>console.log(".gitclone plugin executed")

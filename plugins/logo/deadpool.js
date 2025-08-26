@@ -1,0 +1,1 @@
+export default ()=>console.log(".deadpool plugin executed")

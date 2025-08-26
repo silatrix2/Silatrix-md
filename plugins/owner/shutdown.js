@@ -1,0 +1,1 @@
+export default ()=>console.log(".shutdown plugin executed")

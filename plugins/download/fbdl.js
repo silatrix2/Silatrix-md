@@ -1,0 +1,1 @@
+export default ()=>console.log(".fbdl plugin executed")

@@ -1,0 +1,1 @@
+export default ()=>console.log(".pray4me plugin executed")

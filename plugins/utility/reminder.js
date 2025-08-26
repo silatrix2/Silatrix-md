@@ -1,0 +1,1 @@
+export default ()=>console.log(".reminder plugin executed")

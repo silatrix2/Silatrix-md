@@ -1,0 +1,1 @@
+export default ()=>console.log(".welcome plugin executed")

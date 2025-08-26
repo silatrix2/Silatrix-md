@@ -1,0 +1,1 @@
+export default ()=>console.log(".npm plugin executed")

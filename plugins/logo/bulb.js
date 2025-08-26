@@ -1,0 +1,1 @@
+export default ()=>console.log(".bulb plugin executed")

@@ -1,0 +1,1 @@
+export default ()=>console.log(".animegirl1 plugin executed")
