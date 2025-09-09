@@ -15,7 +15,7 @@ function toSmallCaps(str) {
 
 cmd({
   pattern: "menu",
-  alias: ["👑", "xtreme"],
+  alias: ["cm18", "nyoni"],
   use: '.menu',
   desc: "Show all bot commands",
   category: "menu",
@@ -25,7 +25,7 @@ cmd({
 async (haiko, mek, m, { from, reply }) => {
   try {
     const totalCommands = commands.length;
-    const date = moment().tz("America/Mexico").format("dddd, DD MMMM YYYY");
+    const date = moment().tz("Africa/Dar es salaam").format("dddd, DD MMMM YYYY");
 
     const uptime = () => {
       let sec = process.uptime();
@@ -35,17 +35,17 @@ async (haiko, mek, m, { from, reply }) => {
       return `${h}h ${m}m ${s}s`;
     };
 
-    let haikomenu = `╭══⪨ RAHEEM-XMD-2🇹🇿 ⪩══╮
+    let haikomenu = `╭══⪨ Silatrix-md🇹🇿 ⪩══╮
 ┃😎 𝗨𝗦𝗘𝗥 : @${m.sender.split("@")[0]}
 ┃⌚ 𝗧𝗜𝗠𝗘 : ${uptime()}
 ┃👔 𝗠𝗢𝗗𝗘 : *${config.MODE}*
 ┃🐯 𝗣𝗥𝗘𝗙𝗜𝗫 : [${config.PREFIX}]
 ┃✌️ 𝗣𝗟𝗨𝗚𝗜𝗡 :  ${totalCommands}
-┃💪 𝗗𝗘𝗩 : RAHEEM-CM 
+┃💪 𝗗𝗘𝗩 : silatrix
 ┃👌 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 : 𝟮.𝟬.𝟬
 ╰══════════════════╯
 
-*WELCOME TO RAHEEM-XMD-2*
+*WELCOME TO silatrix-md*
 -------------------------------------------------
 
 ╭━⪨👥𝐆𝐑𝐎𝐔𝐏 𝐌𝐄𝐍𝐔 ⪩━┈⊷
@@ -362,19 +362,19 @@ async (haiko, mek, m, { from, reply }) => {
 ├❒┃👉  ytv
 ├❒╰───────────────┈⊷🇹🇿
 ╰━━━━━━━━━━━━━━━━━┈⊷🇹🇿
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHEEM-CM*`;
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ silatrix*`;
     
 await haiko.sendMessage(from, {
-      image: { url:'https://files.catbox.moe/gfr5d3.jpg`},
-      caption: haikomenu,
+      image: { url:'https://files.catbox.moe/3x9xp3.jpg`},
+      caption: cm18menu,
       contextInfo: {
         mentionedJid: [m.sender],
         audio: { url: 'https://files.catbox.moe/t7ul1u.mp3' },
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363398101781980@newsletter',
-          newsletterName: 'RAHEEM-CM',
+          newsletterJid: '',
+          newsletterName: 'silatrix',
           serverMessageId: 143
         }
       }
