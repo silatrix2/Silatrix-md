@@ -1,1 +1,0 @@
-export default ()=>console.log(".angelwings plugin executed")

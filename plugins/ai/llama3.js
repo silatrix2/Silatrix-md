@@ -1,1 +1,0 @@
-export default ()=>console.log(".llama3 plugin executed")

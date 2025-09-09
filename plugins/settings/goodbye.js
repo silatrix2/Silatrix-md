@@ -1,1 +1,0 @@
-export default ()=>console.log(".goodbye plugin executed")

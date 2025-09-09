@@ -1,1 +1,0 @@
-export default ()=>console.log(".getjid2 plugin executed")

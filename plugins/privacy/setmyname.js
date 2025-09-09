@@ -1,1 +1,0 @@
-export default ()=>console.log(".setmyname plugin executed")

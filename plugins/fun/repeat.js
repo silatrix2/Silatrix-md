@@ -1,1 +1,0 @@
-export default ()=>console.log(".repeat plugin executed")

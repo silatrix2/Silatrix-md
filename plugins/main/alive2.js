@@ -1,1 +1,0 @@
-export default ()=>console.log(".alive2 plugin executed")

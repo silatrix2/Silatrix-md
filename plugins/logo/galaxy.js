@@ -1,1 +1,0 @@
-export default ()=>console.log(".galaxy plugin executed")

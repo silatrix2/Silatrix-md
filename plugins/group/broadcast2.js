@@ -1,1 +1,0 @@
-export default ()=>console.log(".broadcast2 plugin executed")

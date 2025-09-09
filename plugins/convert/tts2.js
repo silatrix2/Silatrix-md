@@ -1,1 +1,0 @@
-export default ()=>console.log(".tts2 plugin executed")

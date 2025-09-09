@@ -1,1 +1,0 @@
-export default ()=>console.log(".mediafire2 plugin executed")

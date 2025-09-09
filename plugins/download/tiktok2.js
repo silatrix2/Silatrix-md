@@ -1,1 +1,0 @@
-export default ()=>console.log(".tiktok2 plugin executed")

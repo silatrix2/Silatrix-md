@@ -1,1 +1,0 @@
-export default ()=>console.log(".tourl2 plugin executed")

@@ -1,1 +1,0 @@
-export default ()=>console.log(".githubstalk plugin executed")

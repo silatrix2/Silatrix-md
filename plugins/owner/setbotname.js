@@ -1,1 +1,0 @@
-export default ()=>console.log(".setbotname plugin executed")

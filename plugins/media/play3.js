@@ -1,1 +1,0 @@
-export default ()=>console.log(".play3 plugin executed")

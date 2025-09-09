@@ -1,1 +1,0 @@
-export default ()=>console.log(".imgscan plugin executed")

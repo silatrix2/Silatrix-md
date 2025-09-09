@@ -1,1 +1,0 @@
-export default ()=>console.log(".autoreact plugin executed")

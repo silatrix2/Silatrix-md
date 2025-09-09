@@ -1,1 +1,0 @@
-export default ()=>console.log(".typography plugin executed")

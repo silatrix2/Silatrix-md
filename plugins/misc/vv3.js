@@ -1,1 +1,0 @@
-export default ()=>console.log(".vv3 plugin executed")

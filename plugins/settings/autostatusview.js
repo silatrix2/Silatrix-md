@@ -1,1 +1,0 @@
-export default ()=>console.log(".autostatusview plugin executed")

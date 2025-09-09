@@ -1,1 +1,0 @@
-export default ()=>console.log(".removeall2 plugin executed")
