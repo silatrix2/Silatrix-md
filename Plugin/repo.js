@@ -6,7 +6,7 @@ const repo = async (m, gss) => {
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(" ")[0].toLowerCase() : "";
 
   if (["repo", "sc", "script", "info"].includes(cmd)) {
-    const githubRepoURL = "https://github.com/Raheem-cm/RAHEEM-XMD-2";
+    const githubRepoURL = "https://github.com/silatrix2/Silatrix-md";
 
     try {
       // Extract username and repo name from the URL
@@ -28,15 +28,15 @@ const repo = async (m, gss) => {
       await gss.sendMessage(
         m.from,
         {
-          image: { url: "https://files.catbox.moe/vgb4cw.jpg" },
+          image: { url: "https://files.catbox.moe/r6qcri.jpg" },
           caption: formattedInfo,
           contextInfo: {
             mentionedJid: [m.sender],
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: "120363398101781980@newsletter",
-              newsletterName: "RAHEEM-XMD-2🪀",
+              newsletterJid: "",
+              newsletterName: "Silatrix-md🪀",
               serverMessageId: 143,
             },
           },
@@ -56,8 +56,8 @@ const repo = async (m, gss) => {
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: "120363398101781980@newsletter",
-              newsletterName: "RAHEEM-XMD-2🪀",
+              newsletterJid: "",
+              newsletterName: "Silatrix-md🪀",
               serverMessageId: 143,
             },
           },
