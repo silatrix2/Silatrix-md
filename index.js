@@ -89,13 +89,13 @@ async function start() {
     try {
         const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
         const { version, isLatest } = await fetchLatestBaileysVersion();
-        console.log(`🤖 RAHEEM-XMD-2 using WA v${version.join('.')}, isLatest: ${isLatest}`);
+        console.log(`🤖 Silatri-md using WA v${version.join('.')}, isLatest: ${isLatest}`);
         
         const Matrix = makeWASocket({
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: ["RAHEEM-XMD-2", "safari", "3.3"],
+            browser: ["Silatrix-md", "safari", "3.3"],
             auth: state,
             getMessage: async (key) => {
                 if (store) {
@@ -180,7 +180,7 @@ async function start() {
                     await Matrix.readMessages([mek.key]);
                     
                     if (config.AUTO_STATUS_REPLY) {
-                        const customMessage = config.STATUS_READ_MSG || '✅ Auto Status Seen Bot By RAHEEM-XMD-2';
+                        const customMessage = config.STATUS_READ_MSG || '✅ Auto Status Seen Bot By Silatrix-md';
                         await Matrix.sendMessage(fromJid, { text: customMessage }, { quoted: mek });
                     }
                 }
