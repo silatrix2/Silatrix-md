@@ -1,9 +1,9 @@
 {
-  "name": "RAHEEM-XMD-2",
-  "description": "🚀 RAHEEM XMD 2 WhatsApp MultiDevice Bot – BY RAHEEM-CM 💡✨",
-  "logo": "https://files.catbox.moe/vgb4cw.jpg",
+  "name": " Silatrix-md",
+  "description": "🚀 Silatrix-md WhatsApp MultiDevice Bot – BY silatrix 💡✨",
+  "logo": "https://files.catbox.moe/3x9xp3.jpg",
   "keywords": ["RAHEEM-CM", "whatsapp-bot", "whatsapp-md-bot"],
-  "repository": "https://github.com/Raheem-cm/RAHEEM-XMD-2",
+  "repository": "https://github.com/silatrix2/Silatrix-md",
   "stack": "container",
   "env": { 
   
@@ -20,7 +20,7 @@
     "OWNER_NAME": {
       "description": "Your name as the bot owner",
       "required": true,
-      "value": "RAHEEM-CM"
+      "value": "silatrix"
     },
     "OWNER_NUMBER": {
       "description": "Your WhatsApp number",
