@@ -16,7 +16,7 @@ href="https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r">
 </p>
 
 ---
-DEPLOY SIMPLY RAHEEM-XMD-2 
+DEPLOY SIMPLY SILATRIX-MD-2 
 
 [![TypingSVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=50&pause=1000&color=FF0000&center=true&vCenter=true&width=900&height=130&lines=『+⚡get+session-id+here+👌👌⚡+』)](https://git.io/typing-svg)
 
