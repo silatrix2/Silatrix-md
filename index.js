@@ -118,7 +118,7 @@ async function start() {
                     Matrix.sendMessage(Matrix.user.id, { 
                         image: { url: "https://files.catbox.moe/vgb4cw.jpg" }, 
                         caption: `╓─────────────────╖
-│WELCOME TO RAHEEM-XMD-2 
+│WELCOME TO SILATRIX-XMD-2 
 ╙─────────────────╜
 *⚠️ Hello there User! 🤖*
 
@@ -129,10 +129,10 @@ async function start() {
 *🪀 Your Prefix:* = *${prefix}*
 ═══════════════════
 
-💬 REPO : https://github.com/Raheem-cm/RAHEEM-XMD-2 
+💬 REPO : https://github.com/silatrix2/silatrix-md
 
 ╚══════════════════╝
-       © DEV RAHEE-CM`
+       © DEV SILA-TECH`
                     });
                     initialConnection = false;
                 } else {
