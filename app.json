@@ -2,7 +2,7 @@
   "name": " Silatrix-md",
   "description": "🚀 Silatrix-md WhatsApp MultiDevice Bot – BY silatrix 💡✨",
   "logo": "https://files.catbox.moe/3x9xp3.jpg",
-  "keywords": ["RAHEEM-CM", "whatsapp-bot", "whatsapp-md-bot"],
+  "keywords": ["SILA-TECH", "whatsapp-bot", "whatsapp-md-bot"],
   "repository": "https://github.com/silatrix2/Silatrix-md",
   "stack": "container",
   "env": { 
@@ -25,7 +25,7 @@
     "OWNER_NUMBER": {
       "description": "Your WhatsApp number",
       "required": true,
-      "value": "255763111390"
+      "value": "255612491554"
     },
     "AUTO_READ": {
       "description": "Enable bot to auto-read messages (true/false)",
@@ -55,7 +55,7 @@
     "ANTI_DELETE": {
       "description": "Enable anti-delete feature (true/false)",
       "required": true,
-      "value": "true"
+      "value": "false"
     },
     "AUTO_STATUS_SEEN": {
       "description": "Enable bot to view statuses (true/false)",
@@ -65,7 +65,7 @@
     "AUTO_STATUS_REPLY": {
       "description": "Enable bot to reply after viewing a status (true/false)",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "STATUS_READ_MSG": {
       "description": "Set the message bot sends after viewing a status",
