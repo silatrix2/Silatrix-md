@@ -22,7 +22,7 @@ const alive = async (m, gss) => {
     const aliveMessage = `
 👋 Hello @${m.sender.split('@')[0]}
 
-✅ *RAHEEM-XMD-2 is Alive!*
+✅ *SILATRIX-XMD-2 is Alive!*
 
 ⏱️ *Uptime:* ${hours}h ${minutes}m ${seconds}s  
 🔐 *Mode:* ${global.public ? 'Public' : 'Private'}  
@@ -39,7 +39,7 @@ const alive = async (m, gss) => {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363398101781980@newsletter',
-          newsletterName: "RAHEEM-XMD-2🪀",
+          newsletterName: "SILATRIX-XMD-2🪀",
           serverMessageId: 143
         }
       }
