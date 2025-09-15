@@ -16,13 +16,11 @@ cmd(
         desc: 'Create a sticker with a custom pack name.',
         category: 'sticker',
         use: '<reply media or URL>',
-        react: "👩🏻‍💻",
         filename: __filename,
     },
     async (conn, mek, m, { quoted, args, q, reply, from }) => {
-        if (!mek.quoted) return reply(`*REPLY TO ANY STICKER.*`);
-        if (!q) return reply(`𝗣𝗟𝗘𝗔𝗦𝗘 𝗣𝗥𝗢𝗩𝗜𝗗𝗘 𝗔 𝗣𝗔𝗖𝗞 𝗡𝗔𝗠𝗘
-> *EXEMPLE .TAKE RAHEEM*`);
+        if (!mek.quoted) return reply(`*Reply to any sticker.*`);
+        if (!q) return reply(`*Please provide a pack name using .take <packname>*`);
 
         let mime = mek.quoted.mtype;
         let pack = q;
@@ -40,7 +38,7 @@ cmd(
             const buffer = await sticker.toBuffer();
             return conn.sendMessage(mek.chat, { sticker: buffer }, { quoted: mek });
         } else {
-            return reply("*UHH, PLEASE REPLY TO AN IMAGE.*");
+            return reply("*Uhh, Please reply to an image.*");
         }
     }
 );
@@ -54,13 +52,12 @@ cmd(
         desc: 'Create a sticker from an image, video, or URL.',
         category: 'sticker',
         use: '<reply media or URL>',
-        react: "👨🏻‍💻",
         filename: __filename,
     },
     async (conn, mek, m, { quoted, args, q, reply, from }) => {
-        if (!mek.quoted) return reply(`*REPLY TO ANY IMAGE OR VIDEO, SIR.*`);
+        if (!mek.quoted) return reply(`*Reply to any Image or Video, Sir.*`);
         let mime = mek.quoted.mtype;
-        let pack = Config.STICKER_NAME || "🌸𝐋𝐄 𝐌𝐄𝐂  𝐃𝐔𝐍𝐄 𝐒𝐄𝐔𝐋𝐄 𝐌𝐄𝐔𝐅☘️";
+        let pack = Config.STICKER_NAME || "༺𒋲⃟🀧𝐒𝐄𝐑𝐆𝐈𝐎 𝐌𝐀𝐑𝐐𝐔𝐈𝐍𝐀🀈⃟𒋲🩸᪳";
         
         if (mime === "imageMessage" || mime === "stickerMessage") {
             let media = await mek.quoted.download();
@@ -75,10 +72,9 @@ cmd(
             const buffer = await sticker.toBuffer();
             return conn.sendMessage(mek.chat, { sticker: buffer }, { quoted: mek });
         } else {
-            return reply("*UHH, PLEASE REPLY TO AN IMAGE.*");
+            return reply("*Uhh, Please reply to an image.*");
         }
     }
 );
 
 // JawadTechX
-              
