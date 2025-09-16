@@ -19,14 +19,14 @@ async (conn, mek, m, { from }) => {
 `╭───〔 👑 *OWNER CONTACT* 〕───╮
 ┃ 🌟 *Name*: ${ownerName}
 ┃ ☎️ *Number*: ${ownerNumber}
-┃ 🛠️ *Bot*: ${config.BOT_NAME || 'RAHEEM-XMD-3'}
+┃ 🛠️ *Bot*: ${config.BOT_NAME || 'SILATRIX-MD'}
 ┃ 🕒 *Version*: 2.0.0 Beta
 ╰────────────────────────────╯
 
 _📩 Tap on the contact card to save._
-> *Powered by RAHEEM CM*`,
+> *Powered by 𝙼𝚁.𝚂𝙸𝙻𝙰*`,
 
-`┏━━ ⪨ *RAHEEM-XMD-3 OWNER INFO* ⪩━━┓
+`┏━━ ⪨ *SILATRIX-MD OWNER INFO* ⪩━━┓
 ┃ 🧑‍💻 Name   : *${ownerName}*
 ┃ 📞 Contact : ${ownerNumber}
 ┃ ⚙️  Mode    : ${config.MODE}
@@ -34,13 +34,13 @@ _📩 Tap on the contact card to save._
 ┗━━━━━━━━━━━━━━━━━━━━━━━┛
 > _Contact with care, this is the real dev._`,
 
-`▄▀▄▀▄ ${config.BOT_NAME || 'RAHEEM-XMD-3'} ▄▀▄▀▄
+`▄▀▄▀▄ ${config.BOT_NAME || 'SILATRIX-MD'} ▄▀▄▀▄
 👑 *Owner:* ${ownerName}
 📞 *Number:* ${ownerNumber}
 🧠 *Role:* Lead Dev & Bot Creator
 🔖 *Prefix:* ${config.PREFIX}
 ✨ *Version:* 2.0.0 Beta
-━━━ Powered by RAHEEM-CM ━━━`
+━━━ Powered by 𝙼𝚁.𝚂𝙸𝙻𝙰 ━━━`
         ];
 
         // Random caption style
@@ -67,7 +67,7 @@ _📩 Tap on the contact card to save._
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363399470975987@newsletter',
-                    newsletterName: 'RAHEEM-XMD-3🪀',
+                    newsletterName: 'SILATRIX-MD🪀',
                     serverMessageId: 143
                 }
             }

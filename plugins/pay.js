@@ -13,8 +13,8 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let dec = `*╭───❍SUPPORT🥹🫡❍*
-‎*├⬡ .HALOPESA +255610209120* 
-‎*├⬡ .HALOPESA +255610209120*
+‎*├⬡ .HALOPESA +255612491554* 
+‎*├⬡ .AIRTEL MONEY +255789661034*
 ‎*╰───────────────❍*`;
 
         await conn.sendMessage(
@@ -28,7 +28,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: 'https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r',
-                        newsletterName: "RAHEEM-XMD-3 PAYMENT",
+                        newsletterName: "SILATRIX-MD PAYMENT",
                         serverMessageId: 143
                     }
                 }

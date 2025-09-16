@@ -33,7 +33,7 @@ cmd({
 
     // Create the response message
     const message = `
-*RAHEEM-XMD-3 NPM SEARCH*
+*SILATRIX-MD NPM SEARCH*
 
 *🔰 NPM PACKAGE:* ${packageName}
 *📄 DESCRIPTION:* ${description}

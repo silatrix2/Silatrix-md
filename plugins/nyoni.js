@@ -24,8 +24,8 @@ async (conn, mek, m, { from, sender, isGroup, reply, participants }) => {
             },
             message: {
                 contactMessage: {
-                    displayName: "RAHEEM SYSTEM",
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:NEXUS SYSTEM\nORG:RAHEEM-XMD-3;\nTEL;type=CELL;type=VOICE;waid=255763111390:+255763111390\nEND:VCARD`
+                    displayName: "SILATRIX SYSTEM",
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:NEXUS SYSTEM\nORG:SILATRIX-MD;\nTEL;type=CELL;type=VOICE;waid=255789661031:+255612491554\nEND:VCARD`
                 }
             }
         };
@@ -40,7 +40,7 @@ async (conn, mek, m, { from, sender, isGroup, reply, participants }) => {
         // Block the user
         await conn.updateBlockStatus(quotedUser, 'block');
 
-        const text = `🛡️ *ANTI-BUG SECURITY ENGAGED*\n\n✅ Cleared bug/crash message\n${kicked ? '✅ Kicked bug sender from group\n' : ''}✅ Blocked user from contacting\n\n*Status:* Safe.\n*Handled By:* RAHEEM-XMD-3`;
+        const text = `🛡️ *ANTI-BUG SECURITY ENGAGED*\n\n✅ Cleared bug/crash message\n${kicked ? '✅ Kicked bug sender from group\n' : ''}✅ Blocked user from contacting\n\n*Status:* Safe.\n*Handled By:* SILATRIX-MD`;
 
         await conn.sendMessage(from, {
             text,
@@ -50,7 +50,7 @@ async (conn, mek, m, { from, sender, isGroup, reply, participants }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363399470975987@newsletter',
-                    newsletterName: "RAHEEM-BOTS 🤟✌",
+                    newsletterName: "SILATRIX-BOTS 🤟✌",
                     serverMessageId: 300
                 }
             }

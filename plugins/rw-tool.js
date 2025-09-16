@@ -17,7 +17,7 @@ cmd({
     const { data } = await axios.get(apiUrl);
     
     if (data.status && data.imgUrl) {
-      const caption = `🌌 *Random Wallpaper: ${query}*\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHEEM-CM*`;
+      const caption = `🌌 *Random Wallpaper: ${query}*\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙY 𝙼𝚁.𝚂𝙸𝙻𝙰*`;
       await conn.sendMessage(from, { image: { url: data.imgUrl }, caption }, { quoted: m });
     } else {
       reply(`❌ No wallpaper found for *"${query}"*.`);

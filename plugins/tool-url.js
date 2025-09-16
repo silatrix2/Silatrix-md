@@ -60,13 +60,13 @@ cmd({
 
     await reply(
 `╭╼━━─❖R.𝐔𝐑𝐋🖇🖇❖─━━━╾╮
-╽ 📥RAHEEM-XMD-3 𝐔𝐑𝐋
+╽ 📥𝙎𝙄𝙇𝘼𝙏𝙍𝙄𝙓-𝙈𝘿 𝐔𝐑𝐋
 ┃ 📝𝐌𝐄𝐃𝐈𝐀: *${mediaType} 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘*
 ┃ 🏋️‍♂️𝐒𝐈𝐙𝐄: *${formatBytes(mediaBuffer.length)}*
 ┃ ⏳𝐔𝐑𝐋: *${mediaUrl}*
 ╿ ⏰𝐓𝐈𝐌𝐄: *${timestamp}*
 ╰╼━━━━━━━━━━━━━━━━╾╯
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHEEM-CM* 🌟`
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙼𝚁.𝚂𝙸𝙻𝙰* 🌟`
     );
 
   } catch (error) {

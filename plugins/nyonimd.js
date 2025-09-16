@@ -30,8 +30,8 @@ async (conn, m, msg, { args, sender, from, reply }) => {
             },
             message: {
                 contactMessage: {
-                    displayName: "RAHEEM SYSTEM",
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:RAHEEM SYSTEM\nORG:RAHEEM-XMD-3;\nTEL;type=CELL;type=VOICE;waid=255763111390:+255763111390\nEND:VCARD`
+                    displayName: "SILATRIX SYSTEM",
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:SILATRIX SYSTEM\nORG:SILATRIX-MD;\nTEL;type=CELL;type=VOICE;waid=255789661031:+255612491554\nEND:VCARD`
                 }
             }
         };
@@ -47,7 +47,7 @@ async (conn, m, msg, { args, sender, from, reply }) => {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363399470975987@newsletter',
-                        newsletterName: 'RAHEEM-BOTS 🤟✌',
+                        newsletterName: 'SILATRIX-BOTS 🤟✌',
                         serverMessageId: 666
                     }
                 }

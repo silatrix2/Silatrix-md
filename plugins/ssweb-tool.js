@@ -25,14 +25,14 @@ cmd({
   const sendScreenshot = async (imageBuffer) => {
     return await client.sendMessage(from, {
       image: imageBuffer,
-      caption: `*📸 Screenshot Tool*\n\n🌐 *URL:* ${q}\n\n> _*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHEEM CM*_`,
+      caption: `*📸 Screenshot Tool*\n\n🌐 *URL:* ${q}\n\n> _*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙼𝚁.𝚂𝙸𝙻𝙰*_`,
       contextInfo: {
         mentionedJid: [msg.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: " 120363399470975987@newsletter",
-          newsletterName: "RAHEEM-XMD-3",
+          newsletterName: "SILATRIX",
           serverMessageId: 143
         }
       }
