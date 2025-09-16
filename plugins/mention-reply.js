@@ -40,8 +40,8 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           externalAdReply: {
-            title: config.BOT_NAME || "RAHEEM-XMD-3 🥀",
-            body: config.DESCRIPTION || "> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHEEM-CM*",
+            title: config.BOT_NAME || "SILATRIX-MD 🥀",
+            body: config.DESCRIPTION || "> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙼𝚁.𝚂𝙸𝙻𝙰*",
             mediaType: 1,
             renderLargerThumbnail: true,
             thumbnail: thumbnailBuffer,
