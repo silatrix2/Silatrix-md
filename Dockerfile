@@ -1,5 +1,5 @@
 FROM node:lts-buster
-RUN git clone https://github.com/silatrix2/silatrix-md/root/ikJawad
+RUN git clone https://github.com/silatrix2/silatrix-md.git
 WORKDIR /root/ikJawad
 RUN npm install && npm install -g pm2 || yarn install --network-concurrency 1
 COPY . .
