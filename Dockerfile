@@ -1,7 +1,19 @@
 FROM node:lts-buster
-RUN git clone https://github.com/silatrix2/silatrix-md.git
-WORKDIR /root/ikJawad
-RUN npm install && npm install -g pm2 || yarn install --network-concurrency 1
+
+RUN apt-get update && \
+  apt-get install -y ffmpeg imagemagick webp && \
+  rm -rf /var/lib/apt/lists/*
+
+WORKDIR /usr/src/app
+
+# Copy dependencies first
+COPY package*.json ./
+
+RUN npm install && npm install -g pm2
+
+# Copy the rest of the files
 COPY . .
-EXPOSE 9090
+
+EXPOSE 5000
+
 CMD ["npm", "start"]
