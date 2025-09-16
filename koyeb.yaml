@@ -1,6 +1,6 @@
-name: RAHEEM-XMD-2
+name: 𝙨𝙞𝙡𝙖𝙩𝙧𝙞𝙭-𝙢𝙙
 services:
-  - name: RAHEEM-XMD-2
+  - name: megalodon-md-service
     type: web
     ports:
       - 5000
@@ -12,7 +12,6 @@ services:
     regions:
       - fra
       - sin
-
 
 
       
