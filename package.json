@@ -1,12 +1,12 @@
 {
-  "name": "𝙎𝙄𝙇𝘼𝙏𝙍𝙄𝙓-𝙈𝘿",
+  "name": "silatrix-md",
   "version": "2.0.0",
   "description": "A WhatsApp Bot Created By  𝙎𝙞𝙡𝙖-𝙏𝙚𝙘𝙝",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name 𝙎𝙄𝙇𝘼𝙏𝙍𝙄𝙓-𝙈𝘿",
-    "stop": "pm2 stop 𝙎𝙄𝙇𝘼𝙏𝙍𝙄𝙓-𝙈𝘿",
-    "restart": "pm2 restart 𝙎𝙄𝙇𝘼𝙏𝙍𝙄𝙓-𝙈𝘿"
+    "stop": "pm2 stop silatrix-md",
+    "restart": "pm2 restart silatrix-md"
   },
   "dependencies": {
    "@whiskeysockets/baileys": "npm:baileys-pro@0.0.5",
